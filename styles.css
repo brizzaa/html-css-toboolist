@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #ffffff;
+}
+body{
+    background-color: #f6f6f6;
+}
+.logo{
+    background-color: #ffffff;
+    padding: 15px;
+}
+.box{
+    height: 650px;
+    width: 1300px;
+    background-color:  #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 30px;
+}
+h2{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.section{
+ margin-left: 30px;
+ margin-top: 10px;
+}
+.button-container{
+   border-bottom: 2px solid #c9c9c955;
+   padding-left: 40px;
+   padding-bottom: 5px;
+}
+.bottone{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 0.5px solid #eaeaea;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+.bottone:hover{
+    background-color: #87d1ff;
+}
+.task {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.task .tag {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.tag.editorial {
+    background-color: #007bff;
+}
+
+.tag.recruiting {
+    background-color: #ff4d4f;
+}
+
+.tag.mobile {
+    background-color: #ffa500;
+}
+
+.tag.sales {
+    background-color: #52c41a;
+}
+
+.tag.website {
+    background-color: #eb2f96;
+}
+
+.tag.goals {
+    background-color: #faad14;
+}
